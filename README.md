@@ -17,4 +17,4 @@ The data set originally had a high sample size (30,000) and it was also importan
 The process of solving the problem is outlined below. The process here is somewhat more general than the one I did (the latter being marked in white). This is partly due to the fact that the data is complete (no missing values) and also that it contains categorical values. The Scikit learn library, which is used as the core component of the process, is not able to handle categorical data directly, but supports its conversion into numeric ones.
 
 
-![alt text] (https://github.com/Klariss/Gradient-Boosting-Method-for-credit-risk-analysis/blob/master/process.PNG)
+![alt text](https://github.com/Klariss/Gradient-Boosting-Method-for-credit-risk-analysis/blob/master/process.PNG)
