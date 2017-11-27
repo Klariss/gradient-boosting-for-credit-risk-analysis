@@ -9,7 +9,7 @@ Dealing with parameter tuning prone to be a good method, with this method I was 
 The applied python environment proved to be useful, with it’s many features. Some minor deficiencies: using cost matrix optimization, or categorical variables are not directly supported by Scikit-Learn.
  
 
-##### Dataset
+#### Dataset
  
 The data set originally had a high sample size (30,000) and it was also important for me to have the database to be binary problems
  
@@ -34,7 +34,7 @@ Then the fixing of these parameters, was followed by the most resource consuming
 * learning_rate = 0.005: n_estimators = 1900.
 
  
-##### Processing
+#### Processing
 
 Choosing a threshold that corresponds to the calculations of return
  
@@ -61,22 +61,22 @@ When analyzing generated data, I managed to produce a much more efficient model:
 
 ![alt text](ROC2.0.PNG)
 
-##### Performance/ recources
+#### Performance/ recources
  
 Since the number of trees is interesting for the resources needed, I have shown the area below the ROC curve, depending on the number of trees, 0.05, 0.01, 0.005, up to 1900 trees.
 The AUC is shown on the two figure below depending on the number of trees.
 
-![alt text]AUC.PNG
+![alt text](AUC.PNG)
 
 The other figure shows the areas under the ROC curve on 0.5, 0.1, 0.05 values to 150 trees. 
 
-![alt text]AUC2.0.PNG
+![alt text](AUC2.0.PNG)
 
 In the above figures we can observe the importance of tuning the parameters, the red color indicates the student pattern, the blue indicates the test pattern, while the dashed is for the tuned teaching and the continuous curve represents the tune-free teaching. The tuned curve performs better than the one without tuning, and if you increase the abbreviation, you can achieve even better results.
 
 The above diagram illustrates the most important two variables for separating the data set, the model shows that these two variables contain the most information about the target variable.  
 
-![alt text]variables.PNG
+![alt text](variables.PNG)
 
 ### Contribute
 
