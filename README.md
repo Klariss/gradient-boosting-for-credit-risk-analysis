@@ -1,4 +1,4 @@
-# Gradient Boosting Method for credit risk analysis
+# gradient boosting for credit risk analysis
 
 Through this project my aim was to explore the most up-to-date scoring systems and the  mysteries of model building. The artificial intelligence models show the direction of development, definitely I see this the absolute direction of scoring development as well. Credit rating analysis plays a key role in classifying. During my research, "Deep Learning" methods proved to be the most effective algorithms in this topic, and based on the literature, the Esemble methods had a stronger prediction ability than their counterparts. Gradient Boosting is also an Esemble method, it has proven to be an excellent algorithm for diplomacy analysis due to its parametrizability, development, proliferation and modernity.
 
